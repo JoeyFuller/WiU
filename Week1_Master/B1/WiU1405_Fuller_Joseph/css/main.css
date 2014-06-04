@@ -23,9 +23,9 @@ body{
 /*-------------------------------------------  header -------------------------------------------------------*/
 
 header{
-	border-bottom: 2px solid #006;
+	border-bottom: 2px solid #C96;
 	font-size:24px; /*changes color of border under project name*/
-	background-color:#C6DBFF;
+	background-color:#0abab5;
 	padding-left:8px;
 }
 h1{
@@ -37,16 +37,17 @@ h2{
 }
 /*-------------------------------------------  table -------------------------------------------------------*/
 table{
-	background: #C6DBFF;  /*changes color of the background of the table*/
+	background: #0abab5;  /*changes color of the background of the table*/
 	border-collapse: collapse;
 	width: 100%;
+	border:dashed;
 }
 tr{
 	display: table-row;
 	border-color: inherit;
 }
 .odd{
-	background: #ececec; /*changes color of the stripes table*/
+	background: #C96; /*changes color of the stripes table*/
 }
 th{
 	text-align: left;
@@ -54,7 +55,7 @@ th{
 	font-weight: bold;
 	font-size: 120%;
 	color: #545257;  /*changes color of table hd text*/
-	background: #bbbcc0; /*changes color of table hd background*/
+	background: #fff; /*changes color of table hd background*/
 }
 th:first-child{
 	/*border-right: 1px solid #6a7680;*/
